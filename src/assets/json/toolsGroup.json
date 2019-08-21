@@ -1,0 +1,46 @@
+[
+    {
+        "id": "T01",
+        "name": "ToolGroupT01",
+        "tools": [
+            "toolA01",
+            "toolsB01",
+            "toolsC01",
+            "toolsD01"
+        ],
+        "owner": "Own01"
+    },
+    {
+        "id": "T02",
+        "name": "ToolGroupT02",
+        "tools": [
+            "toolE01",
+            "toolsF01",
+            "toolsG01",
+            "toolsH01"
+        ],
+        "owner": "Own02"
+    },
+    {
+        "id": "T02",
+        "name": "ToolGroupT03",
+        "tools": [
+            "toolI01",
+            "toolsJ01",
+            "toolsK01",
+            "toolsL01"
+        ],
+        "owner": "Own01"
+    },
+    {
+        "id": "T02",
+        "name": "ToolGroupT04",
+        "tools": [
+            "toolM01",
+            "toolsN01",
+            "toolsO01",
+            "toolsP01"
+        ],
+        "owner": "Own02"
+    }
+]

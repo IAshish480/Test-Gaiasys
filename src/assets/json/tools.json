@@ -1,0 +1,114 @@
+[
+    {
+        "id": "A01",
+        "name": "toolA01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT01"
+    },
+    {
+        "id": "B01",
+        "name": "toolB01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT01"
+    },
+    {
+        "id": "C01",
+        "name": "toolC01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT01"
+    },
+    {
+        "id": "D01",
+        "name": "toolD01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT01"
+    },
+    {
+        "id": "E01",
+        "name": "toolE01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT02"
+    },
+    {
+        "id": "F01",
+        "name": "toolF01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT02"
+    },
+    {
+        "id": "G01",
+        "name": "toolG01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT02"
+    },
+    {
+        "id": "H01",
+        "name": "toolH01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT02"
+    },
+    {
+        "id": "I01",
+        "name": "toolI01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT03"
+    },
+    {
+        "id": "J01",
+        "name": "toolJ01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT03"
+    },
+    {
+        "id": "K01",
+        "name": "toolK01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT03"
+    },
+    {
+        "id": "L01",
+        "name": "toolL01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT03"
+    },
+    {
+        "id": "M01",
+        "name": "toolM01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT04"
+    },
+    {
+        "id": "N01",
+        "name": "toolN01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT04"
+    },
+    {
+        "id": "O01",
+        "name": "toolO01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT04"
+    },
+    {
+        "id": "P01",
+        "name": "toolP01",
+        "purchaseDate": "01-01-2000",
+        "costPrice": "100",
+        "group": "ToolGroupT04"
+    }
+]

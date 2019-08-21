@@ -1,0 +1,12 @@
+[
+    {
+        "username": "Own01",
+        "password": "pass01",
+        "toolGroups": ["ToolGroupT01","ToolGroupT03"]
+    },
+    {
+        "username": "Own02",
+        "password": "pass02",
+        "toolGroups": ["ToolGroupT02","ToolGroupT04"]
+    }
+]

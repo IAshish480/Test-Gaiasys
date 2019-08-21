@@ -1,0 +1,46 @@
+<div style="text-align:center">
+  <h1>
+    {{ title }}...
+  </h1>
+
+  <div id="Users" class="container">
+    <h1>Users</h1>
+    <ng-container *ngFor="let user of usersArray;let index=index;">
+      <button class="accordion" id="acc{{index}}" (click)="toggleAccordion(index,'panelUser')"><b>Name:</b>
+        {{user['username']}} , <b>pass:</b> {{user['password']}}</button>
+      <div style="display:none;" id="panelUser{{index}}" class="panel">
+        <ng-container *ngFor="let tgroup of user['toolGroups']">
+          <p>tool-group: {{tgroup}}</p>
+        </ng-container>
+      </div>
+    </ng-container>
+  </div>
+
+
+  <div id="ToolGroups" class="container">
+    <h1>ToolGroups</h1>
+    <ng-container *ngFor="let tgroup of toolsGroupArray;let index=index;">
+      <button class="accordion" id="acc{{index}}" (click)="toggleAccordion(index,'panelToolGroup')"><b>Name:</b>
+        {{tgroup['name']}} , <b>id:</b> {{tgroup['id']}} , <b>owner:</b> {{tgroup['owner']}}</button>
+      <div style="display:none;" id="panelToolGroup{{index}}" class="panel">
+        <ng-container *ngFor="let tool of tgroup['tools']">
+          <p>tool: {{tool}}</p>
+        </ng-container>
+      </div>
+    </ng-container>
+  </div>
+
+  <div id="Tools" class="container">
+    <h1>Tools</h1>
+    <ng-container *ngFor="let tool of toolsArray;let index=index;">
+      <button class="accordion" id="acc{{index}}" (click)="toggleAccordion(index,'panelTool')"><b>Name:</b>
+        {{tool['name']}} , <b>id:</b> {{tool['id']}} , <b>purchaseDate:</b> {{tool['purchaseDate']}}</button>
+      <div style="display:none;" id="panelTool{{index}}" class="panel">
+       
+          <p>costPrice: {{tool['costPrice']}}</p>
+          <p>group: {{tool['group']}}</p>
+       
+      </div>
+    </ng-container>
+  </div>
+</div>
